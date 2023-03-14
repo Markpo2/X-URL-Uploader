@@ -1,4 +1,5 @@
-    class Config(object):
+class Config(object):
+    
     # get a token from @BotFather
     TG_BOT_TOKEN = os.environ.get("6043283784:AAHLV11M9g3gaDj5dE-Sr5fKhSCd8CT-lOc")
     # The Telegram API things
