@@ -8,7 +8,7 @@ class Config(object):
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("1284818583").split())
-    DOWNLOAD_LOCATION = ./DOWNLOADS 
+    DOWNLOAD_LOCATION = os.path.isdir("./DOWNLOADS") 
     # Telegram maximum file upload size
     MAX_FILE_SIZE = 50000000
     TG_MAX_FILE_SIZE = 2097152000
